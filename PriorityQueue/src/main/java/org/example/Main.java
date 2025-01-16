@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        PriorityQueue pq = new PriorityQueue(Comparator.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
         pq.add(4);
         pq.add(5);
         pq.add(1);
